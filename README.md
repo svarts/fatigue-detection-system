@@ -8,7 +8,7 @@ Ensure that you have Python 3 installed. You can download it from python.org.
 
 ## Navigate to the project directory
 ```bash
-cd path/to/Fatigue_Detection_System
+cd Fatigue-Detection-System
 ```
 
 ## Create a virtual environment and activate it

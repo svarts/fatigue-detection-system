@@ -6,26 +6,28 @@ This project created for dijital image processing class. this project is a real-
 
 Ensure that you have Python 3 installed. You can download it from python.org.
 
-# Navigate to the project directory
+## Navigate to the project directory
+```bash
 cd path/to/Fatigue_Detection_System
+```
 
-# Create a virtual environment and activate it
+## Create a virtual environment and activate it
 ```bash
 python3 -m venv fatigue-detection-env
 source fatigue-detection-env/bin/activate  # On Windows use `fatigue-detection-env\Scripts\activate`
 ```
 
-# Install required libraries
+## Install required libraries
 ```bash
 pip install opencv-python dlib numpy scipy requests
 ```
 
-# Download and extract the model file
+## Download and extract the model file
 ```bash
 python download_and_extract_model.py
 ```
 
-# Run the project
+## Run the project
 ```bash
 python main.py
 ```

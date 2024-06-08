@@ -10,8 +10,10 @@ Ensure that you have Python 3 installed. You can download it from python.org.
 cd path/to/Fatigue_Detection_System
 
 # Create a virtual environment and activate it
+```bash
 python3 -m venv fatigue-detection-env
 source fatigue-detection-env/bin/activate  # On Windows use `fatigue-detection-env\Scripts\activate`
+```
 
 # Install required libraries
 ```bash

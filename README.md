@@ -4,7 +4,7 @@ This project created for dijital image processing class. this project is a real-
 
 ## Setup Instructions
 
-Ensure that you have Python 3 installed. You can download it from python.org.
+Ensure that you have Python 3 installed. You can download it from https://python.org/
 
 ## Navigate to the project directory
 ```bash
@@ -13,13 +13,17 @@ cd Fatigue-Detection-System
 
 ## Create a virtual environment and activate it
 ```bash
-python3 -m venv fatigue-detection-env source fatigue-detection-env/bin/activate  # On Windows use `fatigue-detection-env\Scripts\activate`
+python3 -m venv fatigue-detection-env
+source fatigue-detection-env/bin/activate  # On Windows use `fatigue-detection-env\Scripts\activate`
 ```
+## Install cmake
+Ensure that you have cmake installed. You can download it from https://cmake.org/download/
 
 ## Install required libraries
 ```bash
 pip install opencv-python dlib numpy scipy requests
 ```
+
 
 ## Run the project
 ```bash

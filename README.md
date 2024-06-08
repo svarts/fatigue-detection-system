@@ -22,14 +22,9 @@ source fatigue-detection-env/bin/activate  # On Windows use `fatigue-detection-e
 pip install opencv-python dlib numpy scipy requests
 ```
 
-## Download and extract the model file
-```bash
-python download_and_extract_model.py
-```
-
 ## Run the project
 ```bash
-python main.py
+python detection.py
 ```
 
 - Eye Aspect Ratio (EAR) Calculation: The system calculates the eye aspect ratio to determine the openness of the eyes. If the eyes are closed for a certain number of consecutive frames, it indicates fatigue.
